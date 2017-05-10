@@ -1,0 +1,50 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 600px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+   
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    
+.navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+}
+
+.navbar li a { 
+      color: white !important;
+}
+
+.navbar-nav li a:hover {
+      color: pink !important;
+}
+
+.navbar-nav li.active a {
+      color: pink !important;
+      background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+}
+  
+#site-name,#user-name{
+  	  font-size: 20px;
+  	  color: white;
+}

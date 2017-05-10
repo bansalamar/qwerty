@@ -1,0 +1,54 @@
+.body{
+	  padding: 0px;
+      margin: auto;
+}
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+   }
+}
+ 
+.navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+}
+
+.navbar li a { 
+      color: white !important;
+}
+
+.navbar-nav li a:hover {
+      color: pink !important;
+}
+
+.navbar-nav li.active a {
+      color: pink !important;
+      background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+}
+  
+#site-name,#user-name{
+  	  font-size: 20px;
+  	  color: white;
+}
+
+.container-fluid #about,.container-fluid #contact{
+      height: 670px;
+      border-bottom-style: outset;
+}
+
+
